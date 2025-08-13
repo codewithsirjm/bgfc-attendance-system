@@ -1,0 +1,131 @@
+/* Minimal CSS for basic structure - Students will add all styling themselves */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* TODO: Add your own styling for these elements */
+/* Hint: Start with basic colors, spacing, and typography */
+
+.header {
+  /* TODO: Style the header - add background color, padding, borders */
+  padding: 1rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.header h1 {
+  margin-bottom: 1rem;
+}
+
+.header nav {
+  /* TODO: Style the navigation - add spacing, colors, hover effects */
+}
+
+.header nav a {
+  margin-right: 1rem;
+  text-decoration: none;
+  color: #333;
+}
+
+.main-content {
+  flex: 1;
+  /* TODO: Add padding and background styling */
+  padding: 2rem;
+}
+
+.page {
+  /* TODO: Add max-width, margins, and other layout properties */
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.page h2 {
+  margin-bottom: 1rem;
+}
+
+.page h3 {
+  margin: 1rem 0 0.5rem 0;
+}
+
+.page p {
+  margin-bottom: 1rem;
+}
+
+.page div {
+  margin-bottom: 1rem;
+}
+
+.page table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+
+.page table th,
+.page table td {
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+.page table th {
+  background-color: #f5f5f5;
+}
+
+.page form div {
+  margin-bottom: 1rem;
+}
+
+.page form label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.page form input,
+.page form select {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+}
+
+.page form button {
+  margin-right: 1rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.page a {
+  color: #0066cc;
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+.page a:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  /* TODO: Style the footer - add background, padding, borders */
+  padding: 1rem;
+  border-top: 1px solid #ccc;
+  text-align: center;
+  margin-top: auto;
+}
+
+/* TODO: Add styling for forms, tables, buttons, and other elements */
+/* Hint: Consider using CSS Grid or Flexbox for layouts */
+/* Hint: Add hover effects and transitions for better user experience */
+/* Hint: Make the design responsive for mobile devices */
