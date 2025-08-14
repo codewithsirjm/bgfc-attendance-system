@@ -5,7 +5,7 @@ function AboutPage() {
     <div className="page">
       {/* TODO: Add a main heading for this page */}
       {/* Hint: Use an <h1> or <h2> tag with a descriptive title */}
-      <h2>About the Attendance System</h2>
+      <h2 className='about-page-subheader'>About the Attendance System</h2>
       
       {/* TODO: Create an about section */}
       {/* Hint: Write a paragraph explaining what your attendance system does */}
@@ -14,7 +14,7 @@ function AboutPage() {
       {/* TODO: Add a features list */}
       {/* Hint: Use <ul> and <li> elements to list the main features */}
       <div>
-        <h3>Features</h3>
+        <h2>Features</h2>
         <ul>
           <li>Track student attendance</li>
           <li>View attendance history</li>
@@ -25,7 +25,7 @@ function AboutPage() {
       {/* TODO: Add technology information */}
       {/* Hint: Explain what technologies you used to build this app */}
       <div>
-        <h3>Technology</h3>
+        <h2>Technology</h2>
         <p>Built with React, React Router, and modern web technologies.</p>
       </div>
       
