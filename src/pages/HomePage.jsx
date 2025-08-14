@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 function HomePage() {
   return (
     <div className="page">
-      <h1 className='homepage-header'>Bucas Grande Foundation College - IT collab work</h1>
+      <h1 className='homepage-header'>Bucas Grande Foundation College - IT collaboration project</h1>
       {/* TODO: Add a main heading for this page */}
       {/* Hint: Use an <h1> or <h2> tag with a descriptive title */}
       <h2>Welcome to the Attendance System</h2>
