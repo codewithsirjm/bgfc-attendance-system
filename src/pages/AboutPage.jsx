@@ -15,7 +15,7 @@ function AboutPage() {
       {/* Hint: Use <ul> and <li> elements to list the main features */}
       <div>
         <h2>Features</h2>
-        <ul>
+        <ul className='student-list'>
           <li>Track student attendance</li>
           <li>View attendance history</li>
           <li>Add new attendance records</li>
