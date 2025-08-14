@@ -7,11 +7,11 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: Arial, sans-serif; 
 }
 
 .homepage-header {
-  color:aqua;
+  color:rgb(207, 69, 15);
 }
 
 .app {
@@ -26,9 +26,12 @@ body {
 .header {
   /* TODO: Style the header - add background color, padding, borders */
   padding: 1rem;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #000000;
 }
 
+.student-list {
+list-style-type:none;
+}
 .header h1 {
   margin-bottom: 1rem;
 }
@@ -53,6 +56,7 @@ body {
   /* TODO: Add max-width, margins, and other layout properties */
   max-width: 1200px;
   margin: 0 auto;
+  text-align: center;
 }
 
 .page h2 {
@@ -107,7 +111,7 @@ body {
 .page form button {
   margin-right: 1rem;
   padding: 0.5rem 1rem;
-  border: 1px solid #ccc;
+  border: 1px solid #ffffff;
   cursor: pointer;
 }
 
@@ -132,7 +136,14 @@ body {
 .about-page-subheader {
   color:#d90808;
 }
+
+.border-style {
+  border-style: groove;
+ border-radius: 0cap;
+}
 /* TODO: Add styling for forms, tables, buttons, and other elements */
 /* Hint: Consider using CSS Grid or Flexbox for layouts */
 /* Hint: Add hover effects and transitions for better user experience */
 /* Hint: Make the design responsive for mobile devices */
+
+
