@@ -10,6 +10,10 @@ body {
   font-family: Arial, sans-serif;
 }
 
+.homepage-header {
+  color:aqua;
+}
+
 .app {
   min-height: 100vh;
   display: flex;
